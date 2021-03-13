@@ -1,8 +1,8 @@
 //  Jerry Gama
 //  CPSC 351-05
 //
-//  semaphore_critical_reason.c
-//  semaphore_critical_reason
+//  semaphore_critical_region.c
+//  semaphore_critical_region
 //
 
 #include <stdio.h>
@@ -84,6 +84,7 @@ int main(int argc, const char* argv[]) {
   }
   printf("\nall %d threads joined", N_THREADS);
   printf("\n\nEnd of program\n");
+  printf("Program ended with exit code 0\n");
 
   return 0;
 }
@@ -145,3 +146,4 @@ int main(int argc, const char* argv[]) {
 // Program ended with exit code: 0
 //
 //========================================================================
+
